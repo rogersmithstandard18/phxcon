@@ -1,0 +1,65 @@
+/* Default Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    /* Add your navigation styles here */
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+/* About Us Section Styles */
+.about, .menu, .gallery, .contact {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    header {
+        font-size: 18px;
+    }
+
+    /* Adjust other styles for smaller screens */
+    .hero {
+        padding: 80px 20px;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Adjust styles for medium-sized screens */
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1025px) {
+    /* Adjust styles for larger screens */
+}
