@@ -21,8 +21,8 @@ nav {
 
 /* Hero Section Styles */
 .hero {
-    background-image: url('hero-image.jpg');
-    
+   /* background-image: url('hero-image.jpg');*/
+
     background-size: cover;
     color: #fff;
     text-align: center;
